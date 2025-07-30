@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up!</title>
+    <link rel="stylesheet" href="SignUp.css">
 </head>
 <body>
     <form>
         <label for="fname">Full name (As in NRIC):</label>
-        <input type="text" id="fname"><br/><br/>
+        <input type="text" id="fname" required ><br/><br/>
 
         <label for="femail">Personal Email:</label>
-        <input type="email" id="femail"><br/><br/>
+        <input type="email" id="femail" required ><br/><br/>
 
         <label for="myDropdown">Year:</label>
-        <select id="myDropdown" name="myDropdown">
+        <select id="myDropdown" name="myDropdown" required>
 
         <option value="option1">0</option>
         <option value="option2">1</option>
@@ -25,12 +26,12 @@
         </select><br/><br/>
 
         <label for="fphonenumber">Handphone No:</label>
-        <input type="tel" id="fphonenumber" placeholder="1234 5678" pattern="[0-9]{4} [0-9]{4}" required>
+        <input required type="tel" id="fphonenumber" placeholder="1234 5678" pattern="[0-9]{4} [0-9]{4}" required>
         <br/><br/>
 
         <label for="myDropdown">School :</label>
 
-        <select id="myDropdown" name="myDropdown">
+        <select required id="myDropdown" name="myDropdown">
 
         <option value="option1">SAS</option>
         <option value="option2">SBM</option>
