@@ -5,8 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up!</title>
     <link rel="stylesheet" href="SignUp.css">
+    <script>
+        function FormSubmit() {
+            document.alert("Sign up request submitted!")
+
+        }
+
+
+    </script>
 </head>
 <body>
+    <nav class="navbar">
+        <a href="/main page/Landing.html">Home</a>
+        <a href="/About/Contact Us/About.html">About Us</a>
+        <a href="/Sign Ups/SignUp.html">Sign Up</a>
+    
+
+    </nav>
+    <h1>Sign up today!</h1>
     <form>
         <label for="fname">Full name (As in NRIC):</label>
         <input type="text" id="fname" required ><br/><br/>
@@ -21,6 +37,7 @@
         <option value="option2">1</option>
         <option value="option3">2</option>
         <option value="option4">3</option>
+
         
 
         </select><br/><br/>
@@ -42,7 +59,7 @@
 
         </select><br/><br/>
 
-        <input type="submit">
+        <input type="submit" onclick ="FormSubmit()">
 
 
 
