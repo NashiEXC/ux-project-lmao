@@ -62,7 +62,7 @@ a{
     margin-right: auto;
 }
 
-@media(max-width:768px){
+
 .NavSideBar{
     display:block;
 }
@@ -102,4 +102,3 @@ a{
     right: -50%;
     }
 
-}
