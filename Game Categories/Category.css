@@ -2,14 +2,14 @@ body{
     background-color:antiquewhite;
 }
 
-.navbar{
+.tabbar{
     overflow: hidden;
     border:1px solid rgba(50, 50, 50, 0.3);
     background-color: #f1f1f1;
 }
 
 
-.navbar button {
+.tabbar button {
   background-color: inherit;
   float: left;
   border: none;
@@ -19,15 +19,15 @@ body{
   transition: 0.3s;
 }
 
-.navbar button:hover {
+.tabbar button:hover {
   background-color: #ddd;
 }
 
-.navbar button.active {
+.tabbar button.active {
   background-color: #ccc;
 }
 
-.navbarcontent {
+.tabbarcontent {
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
