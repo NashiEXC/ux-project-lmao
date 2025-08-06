@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign sUp!</title>
+    <title>Sign Up!</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="SignUp.css">
     <link rel="stylesheet" href="Header.css">
-    <link rel="icon" href="https://media1.tenor.com/m/kqZLFsisY24AAAAd/did-unc-snap-unc.gif"
-    <script>
-        function FormSubmit() {
-            document.alert("Sign up request submitted!")
+    <link rel="icon" href="https://media1.tenor.com/m/kqZLFsisY24AAAAd/did-unc-snap-unc.gif">
+    <script>   
+          function FormSubmit() {
+            alert("Sign up request submitted! Thank you for joining us :)")
 
         }
-
-
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <img src="../images/Vapor.png" height="90" class="Logo">
+            <img src="https://media1.tenor.com/m/kqZLFsisY24AAAAd/did-unc-snap-unc.gif" height="90" class="Logo">
 
             <ul class="NavMenu">
                 <li class="navItem">
@@ -45,54 +47,54 @@
     <script src="Header.js"></script>
 
     <div id ="container">
-    <h2>Sign Up</h2><br/>
-    <p>Join our community and start playing with us today!</p><br>
+   
+    <h1>Sign-Up Form</h1><br/>
+    <h4>Join our community and start playing with us today!</h4><br>
     <form>
         <label for="fname">Full name (As in NRIC):</label>
-        <input type="text" id="fname" required ><br/><br/>
+        <input value="John Lennon" type="text" id="fname" required><br/><br/>
 
         <label for="fstudentid">Student ID:</label>
-        <input type="text" id="fstudentid" required placeholder=" 251234X"><br/><br/>
+        <input value="250000A" type="text" id="fstudentid" required placeholder=" 251234X"><br/><br/>
 
 
         <label for="femail">Email (Do not use your school email):</label>
-        <input type="email" id="femail" required ><br><br>
+        <input value="gurt@yo" type="email" id="femail" required ><br><br>
 
 
         <label for="myDropdown">Year:</label>
         <select id="myDropdown" name="myDropdown" required>
 
-        <option value="option1">0</option>
-        <option value="option2">1</option>
-        <option value="option3">2</option>
-        <option value="option4">3</option>
+        <option value="y1">0</option>
+        <option value="y2">1</option>
+        <option value="y3">2</option>
+        <option value="y4">3</option>
 
         
 
         </select><br/><br/>
 
         <label for="fphonenumber">Handphone No:</label>
-        <input required type="tel" id="fphonenumber" placeholder="1234 5678" pattern="[0-9]{4} [0-9]{4}" required>
+        <input required value="6767 4141" type="tel" id="fphonenumber" placeholder="1234 5678" pattern="[0-9]{4} [0-9]{4}" required>
         <br/><br/>
 
         <label for="myDropdown">School :</label>
 
         <select required id="myDropdown" name="myDropdown">
 
-        <option value="option1">SAS</option>
-        <option value="option2">SBM</option>
-        <option value="option3">SDM</option>
-        <option value="option4">SEG</option>
-        <option value="option4">SHSS</option>
-        <option value="option4">SIT</option>    
+        <option value="sas" id="sas">SAS</option>
+        <option value="sbm" id="sbm">SBM</option>
+        <option value="sdm" id="sdm">SDM</option>
+        <option value="seg" id="seg">SEG</option>
+        <option value="shss" id="shss">SHSS</option>
+        <option value="sit" id="sit">SIT</option>    
 
         </select><br/><br/>
 
 
-        <button type="button" onclick="FormSubmit()">SUMIT</button>
-
+        <button type="button" class="btn btn-success"onclick="FormSubmit()">Submit Form</button>
+        
     </form>
-    </div>
-    
+</div>
 </body>
 </html>
