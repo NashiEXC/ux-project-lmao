@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up!</title>
+    <link rel="stylesheet" href="SignUp.css">
+    <script>
+        function FormSubmit() {
+            document.alert("Sign up request submitted!")
+
+        }
+
+
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/main page/Landing.html">Home</a>
+        <a href="/About/Contact Us/About.html">About Us</a>
+        <a href="/Sign Ups/SignUp.html">Sign Up</a>
+    
+
+    </nav><br/>
+    <div id ="container">
+    <h1>Join our club today!</h1>
+    <form>
+        <label for="fname">Full name (As in NRIC):</label>
+        <input type="text" id="fname" required ><br/><br/>
+
+        <label for="fstudentid">Student ID:</label>
+        <input type="text" id="fstudentid" required placeholder="251234X"><br/><br/>
+
+
+        <label for="femail">Email (Do not use your school email):</label>
+        <input type="email" id="femail" required ><br/><br/>
+
+
+        <label for="myDropdown">Year:</label>
+        <select id="myDropdown" name="myDropdown" required>
+
+        <option value="option1">0</option>
+        <option value="option2">1</option>
+        <option value="option3">2</option>
+        <option value="option4">3</option>
+
+        
+
+        </select><br/><br/>
+
+        <label for="fphonenumber">Handphone No:</label>
+        <input required type="tel" id="fphonenumber" placeholder="1234 5678" pattern="[0-9]{4} [0-9]{4}" required>
+        <br/><br/>
+
+        <label for="myDropdown">School :</label>
+
+        <select required id="myDropdown" name="myDropdown">
+
+        <option value="option1">SAS</option>
+        <option value="option2">SBM</option>
+        <option value="option3">SDM</option>
+        <option value="option4">SEG</option>
+        <option value="option4">SHSS</option>
+        <option value="option4">SIT</option>    
+
+        </select><br/><br/>
+
+        <input type="submit" onclick ="FormSubmit()">
+
+
+
+    </form>
+    
+    </div>
+    
+</body>
+</html>
