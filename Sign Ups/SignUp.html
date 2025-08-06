@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up!</title>
     <link rel="stylesheet" href="SignUp.css">
+    <link rel="stylesheet" href="Header.css">
+    <link rel="icon" href="https://media1.tenor.com/m/kqZLFsisY24AAAAd/did-unc-snap-unc.gif"
     <script>
         function FormSubmit() {
             document.alert("Sign up request submitted!")
@@ -15,25 +17,46 @@
     </script>
 </head>
 <body>
-    <nav class="navbar">
-        <a href="/main page/Landing.html">Home</a>
-        <a href="/About/Contact Us/About.html">About Us</a>
-        <a href="/Sign Ups/SignUp.html">Sign Up</a>
-    
+    <header>
+        <nav class="navbar">
+            <img src="../images/Vapor.png" height="90" class="Logo">
 
-    </nav><br/>
+            <ul class="NavMenu">
+                <li class="navItem">
+                    <a href="../Landing/Landing.html" class="navLink">Home</a>
+                </li>
+                <li class="navItem">
+                    <a href="../Library/Library.html" class="navLink">Games</a>
+                </li>
+                <li class="navItem">
+                    <a href="../Account/account.html" class="navLink">Sign Up</a>
+                </li>
+                <li class="navItem">
+                    <a href="../Contact/contact.html" class="navLink">About/Contact</a>
+                </li>
+            </ul>
+            <div class="NavSideBar">
+                <span class="Bar"></span>
+                <span class="Bar"></span>
+                <span class="Bar"></span>
+            </div>
+        </nav>
+    </header>
+    <script src="Header.js"></script>
+
     <div id ="container">
-    <h1>Join our club today!</h1>
+    <h2>Sign Up</h2><br/>
+    <p>Join our community and start playing with us today!</p><br>
     <form>
         <label for="fname">Full name (As in NRIC):</label>
         <input type="text" id="fname" required ><br/><br/>
 
         <label for="fstudentid">Student ID:</label>
-        <input type="text" id="fstudentid" required placeholder="251234X"><br/><br/>
+        <input type="text" id="fstudentid" required placeholder=" 251234X"><br/><br/>
 
 
         <label for="femail">Email (Do not use your school email):</label>
-        <input type="email" id="femail" required ><br/><br/>
+        <input type="email" id="femail" required ><br><br>
 
 
         <label for="myDropdown">Year:</label>
@@ -65,12 +88,10 @@
 
         </select><br/><br/>
 
-        <input type="submit" onclick ="FormSubmit()">
 
-
+        <button type="button" onclick="FormSubmit()">SUMIT</button>
 
     </form>
-    
     </div>
     
 </body>
