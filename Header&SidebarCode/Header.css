@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 30px;
 }
 
 header{
@@ -62,7 +63,8 @@ a{
     margin-right: auto;
 }
 
-@media(max-width:768px){
+@media(max-width:1000px){
+
 .NavSideBar{
     display:block;
 }
