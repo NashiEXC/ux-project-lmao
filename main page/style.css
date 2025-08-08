@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+@font-face {
+  font-family: SFfont;
+  src: url(../Fonts/CityBrawlersBoldCaps.otf);
+}
+
+@font-face {
+  font-family: GGfont;
+  src: url(../Fonts/Impact\ -\ Strive.otf);
+}
+
+.parallax1{
+    padding-top: 70px;
+    background-image: url(../Media/25-06-2023-Student-Champ-Finals-British-Esports-HIGH-351-2-767x710.png);
+      /* Set a specific height */
+    min-height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .WelcomeText{
+    font-size: 250px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 5000px;
+    font-family: SFfont,'Consolas','Courier New', Courier, monospace;
+  }
+
+  .subtext{
+    font-size: 100px;
+  }
