@@ -117,7 +117,7 @@ body{
   }
 
     .break2{
-    background-image: linear-gradient(to right, #552586 , #B589D6);
+    background-image: linear-gradient(to right, #B589D6 , #552586);
     text-align: center;
     min-height: 500px;
     display: flex;
