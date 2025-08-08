@@ -14,18 +14,19 @@
 
 
 body{
+  padding-top:70px;
   background-image:linear-gradient(to right, #ffce41,#ec4156,#0b1f50);
   text-align:center;
-  padding-top: 70px;
   font-family:IBMfont, 'Consolas', 'Courier New', Courier, monospace;
 }
 
 h1{
     font-family:SFfont,'Consolas','Courier New', Courier, monospace;
-    font-size:100px;
+    font-size:150px;
 }
 
 .encouragement{
+  
 
   border:3px solid black;
 
@@ -34,7 +35,7 @@ h1{
   background-color:#fcfcfc;
   height:510px;
   font-size:45px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 .encouragement h1{
@@ -103,7 +104,7 @@ img{
   border-radius: 5px;
   width:700px;
   padding-bottom:20px;
-  padding-top:50px;
+  padding-top:10px;
   
 }
 
