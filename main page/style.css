@@ -326,3 +326,8 @@ place-items: center;
   font-size: 100px;
   -webkit-text-stroke: 0.1rem black;
 }
+
+.d-block {
+  width: 600px;
+  height: 400px;
+}
