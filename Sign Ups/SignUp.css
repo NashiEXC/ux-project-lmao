@@ -14,6 +14,7 @@
 
 body{
   background-image: url(../Media/signupbg.gif);
+  background-size: cover;
   text-align:center;
   font-family:IBMfont, 'Consolas', 'Courier New', Courier, monospace;
 }
