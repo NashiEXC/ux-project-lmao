@@ -19,6 +19,10 @@
             right: 0%;
             position: relative;
         }
+        .parallax1{
+            position: relative;
+            overflow: hidden;
+        }
     }
     </style>
 </head>
@@ -56,18 +60,18 @@
           <h1 class="subtext">pee pee penis</h1>
         </div>
         <div class="break1">
-            <img src="https://media1.tenor.com/m/kqZLFsisY24AAAAd/did-unc-snap-unc.gif">
+            <img src="https://media1.tenor.com/m/kqZLFsisY24AAAAd/did-unc-snap-unc.gif" height="1000px">
         </div>
     </div>
     <script>
-        const scrolleffect = document.querySelectorAll('div h1');
+        const scrolleffect = document.querySelectorAll('.maintext, .subtext');
 
             function handleScroll(){
                 let scrolled = window.scrollY;
                 
                 console.log(scrolled)
-                scrolleffect[0].style.left = `${scrolled/15}%`;
-                scrolleffect[1].style.right = `${scrolled/15}%`; 
+                scrolleffect[0].style.left = `${scrolled/10}%`;
+                scrolleffect[1].style.right = `${scrolled/5}%`; 
             };
 
             window.addEventListener('scroll',handleScroll)
