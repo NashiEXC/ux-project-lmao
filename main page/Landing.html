@@ -54,24 +54,36 @@
         </nav>
     </header>
     <script src="Header.js"></script>
+    <!--CONTENT-->
     <div class="contentcontainer">
         <div class="parallax1">
           <h1 class="maintext">Esports Club</h1>
           <h1 class="subtext">pee pee penis</h1>
         </div>
         <div class="break1">
-            <img src="https://media1.tenor.com/m/kqZLFsisY24AAAAd/did-unc-snap-unc.gif" height="1000px">
+            <div class="breakcontent1">
+                <h1 class="break1head">
+                    -Who we are-
+                    <p class="break1headpara">
+                        The Esports club is a club that's Esports
+                    </p>
+                </h1>
+                
+            </div>
         </div>
+        <div class="parallax2"></div>
     </div>
+
+    <!--SCRIPT-->
     <script>
-        const scrolleffect = document.querySelectorAll('.maintext, .subtext');
+        const scrolleffect = document.querySelectorAll('.maintext, .subtext'); 
 
             function handleScroll(){
                 let scrolled = window.scrollY;
                 
                 console.log(scrolled)
                 scrolleffect[0].style.left = `${scrolled/10}%`;
-                scrolleffect[1].style.right = `${scrolled/5}%`; 
+                scrolleffect[1].style.right = `${scrolled/6}%`; 
             };
 
             window.addEventListener('scroll',handleScroll)

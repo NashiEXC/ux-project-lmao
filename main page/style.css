@@ -7,10 +7,16 @@
 
 body{
     background-color: black;
+    color: white;
 }
 @font-face {
   font-family: SFfont;
   src: url(../Fonts/CityBrawlersBoldCaps.otf);
+}
+
+@font-face {
+  font-family: sexfont;
+  src: url(../Fonts/IBM_Plex_Sans_Condensed/IBMPlexSansCondensed-Medium.ttf);
 }
 
 @font-face {
@@ -47,4 +53,41 @@ body{
     text-align: center;
     margin: auto;
     font-family: SFfont,'Consolas','Courier New', Courier, monospace;
+  }
+
+
+  .break1{
+    background-image: linear-gradient(to right, #552586 , #B589D6);
+    text-align: center;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sexfont,'Consolas','Courier New', Courier, monospace;
+  }
+
+  .break1head{
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+    padding: 15px;
+    font-size: 50px;
+    text-wrap: nowrap;
+  }
+
+  .break1headpara{
+    font-size: 20px;
+  }
+
+  .parallax2{
+    padding-top: px;
+    background-image: url(../Media/LGD_Gaming_at_the_2015_LPL_Summer_Finals.png);
+      /* Set a specific height */
+    min-height: 750px; 
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
