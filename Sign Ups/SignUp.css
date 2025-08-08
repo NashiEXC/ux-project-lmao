@@ -13,7 +13,7 @@
 
 
 body{
-  background-image:linear-gradient(to right, #6A359C ,#804FB3 ,#9969C7 ,#B589D6  );
+  background-image: url(.../Media/signupbg.gif);
   text-align:center;
   font-family:IBMfont, 'Consolas', 'Courier New', Courier, monospace;
 }
