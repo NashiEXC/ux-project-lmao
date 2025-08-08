@@ -8,10 +8,16 @@
 body{
     background-color: black;
     color: white;
+   
 }
 @font-face {
   font-family: SFfont;
   src: url(../Fonts/CityBrawlersBoldCaps.otf);
+}
+
+@font-face {
+  font-family: UNIfont;
+  src: url(../Fonts/FOT-NewCezanne\ Pro\ B.otf);
 }
 
 @font-face {
@@ -23,6 +29,19 @@ body{
   font-family: GGfont;
   src: url(../Fonts/Impact\ -\ Strive.otf);
 }
+@font-face {
+  font-family: CSfont;
+  src: url(../Fonts/High\ Speed.otf);
+}
+@font-face {
+  font-family: VALfont;
+  src: url(../Fonts/Valorant\ Font.ttf);
+}
+@font-face {
+  font-family: R6font;
+  src: url(../Fonts/BebasNeue-Regular.ttf);
+}
+
 
 .parallax1{
     padding-top: 70px;
@@ -35,6 +54,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+     -webkit-text-stroke: 0.09em black;
   }
 
 
@@ -80,7 +100,6 @@ body{
   }
 
   .parallax2{
-    padding-top: px;
     background-image: url(../Media/LGD_Gaming_at_the_2015_LPL_Summer_Finals.png);
       /* Set a specific height */
     min-height: 750px; 
@@ -90,4 +109,67 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+     -webkit-text-stroke: 1px black;
+  }
+
+  .FGC{
+    padding: 100px;
+  }
+
+  .FPS{
+    padding: 100px;
+  }
+  
+   .SF6{
+    padding: 10px;
+    background-position: center;
+    font-family: SFfont;
+    
+
+  }
+
+  .CS2{
+    padding: 10px;
+    background-position: center;
+    font-family: CSfont;
+    background-size: 100%;
+    
+  }
+
+   .GGST{
+    padding: 10px;
+    background-position: center;
+    font-family: GGfont;
+    
+   
+  }
+
+  .VAL{
+    padding: 10px;
+    background-position: center;
+    font-family: VALfont;
+    background-size: 100%;
+  }
+
+   .UNI{
+    padding: 10px;
+    background-position: center;
+    font-family: UNIfont;
+    
+  }
+
+  .R6S{
+    padding: 10px;
+    background-position: center;
+    font-family: R6font;
+    background-size: 100%;
   }
