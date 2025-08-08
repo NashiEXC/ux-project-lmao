@@ -5,8 +5,14 @@
     font-size: 30px;
 }
 
+body{
+    font-family: 'Consolas', Courier, monospace;
+    color: #F1F5F9;
+    font-weight: bold;
+}
+
 header{
-    background-color: #272b2d
+    background-color: #0F172A
 }
 
 li{
@@ -39,7 +45,7 @@ a{
 }
 
 .navLink:hover{
-    color:#04688d;
+    color:#04688d
 }
 
 .NavSideBar{
@@ -87,7 +93,7 @@ a{
     top: 80px;
     gap: 0;
     flex-direction: column;
-    background-color: #272b2d;
+    background-color: #0F172A;
     width: 100%;
     text-align: center;
     transition: 0.3s;
