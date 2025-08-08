@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body{
     background-color: black;
 }
@@ -15,7 +22,7 @@ body{
     padding-top: 70px;
     background-image: url(../Media/25-06-2023-Student-Champ-Finals-British-Esports-HIGH-351-2-767x710.png);
       /* Set a specific height */
-    min-height: 1000px; 
+    min-height: 750px; 
 
   /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -24,15 +31,20 @@ body{
     background-size: cover;
   }
 
-  .WelcomeText{
-    font-size: 250px;
+
+
+  .maintext{
+  font-size: 300px;
     color: white;
     text-align: center;
     margin: auto;
-    padding-top: 5000px;
+    padding-top: 0px;
     font-family: SFfont,'Consolas','Courier New', Courier, monospace;
   }
-
   .subtext{
     font-size: 100px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-family: SFfont,'Consolas','Courier New', Courier, monospace;
   }

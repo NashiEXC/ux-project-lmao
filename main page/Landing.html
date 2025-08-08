@@ -8,7 +8,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Header.css">
     <link rel="stylesheet" href="style.css">
-    
+    <script src="script.js"></script>
+    <style>
+        @media(min-width:1000px){
+        h1.maintext{
+            left: 0%;
+            position: relative;
+        }
+        h1.subtext{
+            right: 0%;
+            position: relative;
+        }
+        .parallax1{
+            position: relative;
+            overflow: hidden;
+        }
+    }
+    </style>
 </head>
 <body>
         <header>
@@ -40,16 +56,26 @@
     <script src="Header.js"></script>
     <div class="contentcontainer">
         <div class="parallax1">
-            <table class="WelcomeText">
-            <tr>
-            <td class="maintext">Esports Club</th>
-            </tr>
-            <tr>
-                <td class="subtext">I paused my dommy Futanari GF asmr to be here</th>
-            </tr>
-        </table>
+          <h1 class="maintext">Esports Club</h1>
+          <h1 class="subtext">pee pee penis</h1>
+        </div>
+        <div class="break1">
+            <img src="https://media1.tenor.com/m/kqZLFsisY24AAAAd/did-unc-snap-unc.gif" height="1000px">
+        </div>
     </div>
+    <script>
+        const scrolleffect = document.querySelectorAll('.maintext, .subtext');
 
+            function handleScroll(){
+                let scrolled = window.scrollY;
+                
+                console.log(scrolled)
+                scrolleffect[0].style.left = `${scrolled/10}%`;
+                scrolleffect[1].style.right = `${scrolled/5}%`; 
+            };
+
+            window.addEventListener('scroll',handleScroll)
+    </script>
     </div>
 </body>
 </html>
