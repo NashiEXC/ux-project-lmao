@@ -116,6 +116,16 @@ body{
     background-size: cover;
   }
 
+    .break2{
+    background-image: linear-gradient(to right, #552586 , #B589D6);
+    text-align: center;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sexfont,'Consolas','Courier New', Courier, monospace;
+  }
+
    .parallax3{
     background-image: url(../Media/EVO23_Day3_220350_StephanieLindgren_5_Enhanced_NR_Edit.png);
       /* Set a specific height */
@@ -126,6 +136,9 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0 auto;
+    display: grid;
+place-items: center;
   }
 
   table{
@@ -140,6 +153,7 @@ body{
 
   td{
     word-wrap: break-word;
+
   }
 
   .title{
@@ -153,6 +167,7 @@ body{
 
   .FPS{
     padding: 100px;
+  
     font-family: GENfont;
   }
   
@@ -161,7 +176,7 @@ body{
     background-position: center;
     font-family: SFfont;
     background-size: 100%;
-
+   
   }
 
   .CS2{
@@ -169,8 +184,8 @@ body{
     background-position: center;
     font-family: CSfont;
     background-size: 100%;
-    
-  }
+    font-size: 45px;
+  } 
 
    .GGST{
     padding: 10px;
@@ -290,4 +305,24 @@ body{
   opacity: 1;
   filter: blur(0);
   transform: translateY(0);
+}
+
+
+
+.carousel {
+  width: 600px;
+  height: 400px;
+  
+}
+
+.carousel-caption {
+  font-family: SFfont;
+  font-size: 100px;
+  -webkit-text-stroke: 0.1rem black;
+}
+
+.events{
+  font-family: SFfont;
+  font-size: 100px;
+  -webkit-text-stroke: 0.1rem black;
 }
