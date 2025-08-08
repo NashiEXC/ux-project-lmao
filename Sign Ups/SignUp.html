@@ -12,6 +12,8 @@
     <script>   
           function FormSubmit() {
             alert("Sign up request submitted! Thank you for joining us :)")
+            document.getElementById("crazyform").reset();
+            
 
         }
     </script>
@@ -51,7 +53,7 @@
 <!-- Encouragement is the biege bg div -->
 <div class="encouragement" style="position:relative; overflow:hidden;">
     <div class="carousel-bg">
-        <div id="encouragementCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div id="encouragementCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="../Media/training2.png" class="d-block w-100" alt="...">
@@ -73,7 +75,7 @@
 <div class ="container">
     <h1>Sign-Up Form</h1><br/>
     <h4>Become a part of our community today!</h4><br>
-    <form>
+    <form id = "crazyform">
         <table>
             <tr>
                 <td><label for="fname">Full name:</label></td>
