@@ -84,7 +84,7 @@ body{
   .break1{
     background-image: linear-gradient(to right, #552586 , #B589D6);
     text-align: center;
-    min-height: 250px;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,14 +116,30 @@ body{
     background-size: cover;
   }
 
+   .parallax3{
+    background-image: url(../Media/EVO23_Day3_220350_StephanieLindgren_5_Enhanced_NR_Edit.png);
+      /* Set a specific height */
+    min-height: 750px; 
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   table{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
      -webkit-text-stroke: 1px black;
+  }
+
+  td{
+    word-wrap: break-word;
   }
 
   .title{
@@ -176,6 +192,7 @@ body{
     background-position: center;
     font-family: UNIfont;
     background-size: 100%;
+    word-wrap: break-word;
   }
 
   .R6S{
@@ -184,3 +201,93 @@ body{
     font-family: R6font;
     background-size: 100%;
   }
+
+  @media(min-width:768px){
+      table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    
+     -webkit-text-stroke: 1px black;
+  }
+
+  td{
+    word-wrap: break-word;
+    font-size: 50px;
+  }
+
+  .title{
+    font-family: GENfont;
+    font-size: 100px;
+  }
+
+  .FGC{
+    padding: 100px;
+    font-family: GENfont;
+  }
+
+  .FPS{
+    padding: 100px;
+    font-family: GENfont;
+  }
+  
+   .SF6{
+    padding: 10px;
+    background-position: center;
+    font-family: SFfont;
+    background-size: 100%;
+
+  }
+
+  .CS2{
+    padding: 10px;
+    background-position: center;
+    font-family: CSfont;
+    background-size: 100%;
+    
+  }
+
+   .GGST{
+    padding: 10px;
+    background-position: center;
+    font-family: GGfont;
+    background-size: 100%;
+   
+  }
+
+  .VAL{
+    padding: 10px;
+    background-position: center;
+    font-family: VALfont;
+    background-size: 100%;
+  }
+
+   .UNI{
+    padding: 10px;
+    background-position: center;
+    font-family: UNIfont;
+    background-size: 100%;
+    word-wrap: break-word;
+  }
+
+  .R6S{
+    padding: 10px;
+    background-position: center;
+    font-family: R6font;
+    background-size: 100%;
+  }
+  }
+
+.offeredgames{
+  opacity: 0;
+  transition: all 1s;
+  filter:blur(5px);
+  transform: translateY(25%);
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
