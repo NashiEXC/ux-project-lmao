@@ -5,7 +5,9 @@
 }
 
 header{
-    background-color: #272b2d
+    background-color: #0F172A;
+    font-size: 25px;
+    font-family: 'Consolas', Courier, monospace;
 }
 
 li{
@@ -85,7 +87,7 @@ a{
     top: 80px;
     gap: 0;
     flex-direction: column;
-    background-color: #272b2d;
+    background-color: #0F172A;
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -95,7 +97,9 @@ a{
          margin: 30px 0;
          margin-right: 50%;
         font-size: 2rem;
-        font-family: "Consolas", "Courier New", monospace;
+        font-family: 'Consolas', Courier, monospace;
+        color: #F1F5F9;
+        font-weight: bold;
     }
 
 .NavMenu.active{
