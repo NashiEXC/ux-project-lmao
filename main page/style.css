@@ -42,6 +42,11 @@ body{
   src: url(../Fonts/BebasNeue-Regular.ttf);
 }
 
+@font-face {
+  font-family: GENfont;
+  src: url(../Fonts/Angels.ttf);
+}
+
 
 .parallax1{
     padding-top: 70px;
@@ -121,19 +126,25 @@ body{
      -webkit-text-stroke: 1px black;
   }
 
+  .title{
+    font-family: GENfont;
+  }
+
   .FGC{
     padding: 100px;
+    font-family: GENfont;
   }
 
   .FPS{
     padding: 100px;
+    font-family: GENfont;
   }
   
    .SF6{
     padding: 10px;
     background-position: center;
     font-family: SFfont;
-    
+    background-size: 100%;
 
   }
 
@@ -149,7 +160,7 @@ body{
     padding: 10px;
     background-position: center;
     font-family: GGfont;
-    
+    background-size: 100%;
    
   }
 
@@ -164,7 +175,7 @@ body{
     padding: 10px;
     background-position: center;
     font-family: UNIfont;
-    
+    background-size: 100%;
   }
 
   .R6S{
