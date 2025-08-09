@@ -8,7 +8,42 @@
   src: url(../Fonts/IBM_Plex_Sans_Condensed/IBMPlexSansCondensed-Medium.ttf);
 }
 
+@font-face {
+  font-family: SFfont;
+  src: url(../Fonts/CityBrawlersBoldCaps.otf);
+}
 
+@font-face {
+  font-family: UNIfont;
+  src: url(../Fonts/FOT-NewCezanne\ Pro\ B.otf);
+}
+
+@font-face {
+  font-family: sexfont;
+  src: url(../Fonts/IBM_Plex_Sans_Condensed/IBMPlexSansCondensed-Medium.ttf);
+}
+
+@font-face {
+  font-family: GGfont;
+  src: url(../Fonts/Impact\ -\ Strive.otf);
+}
+@font-face {
+  font-family: CSfont;
+  src: url(../Fonts/High\ Speed.otf);
+}
+@font-face {
+  font-family: VALfont;
+  src: url(../Fonts/Valorant\ Font.ttf);
+}
+@font-face {
+  font-family: R6font;
+  src: url(../Fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: GENfont;
+  src: url(../Fonts/Angels.ttf);
+}
 
 
 
