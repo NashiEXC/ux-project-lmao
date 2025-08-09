@@ -118,3 +118,25 @@ img{
 .container h1{
   text-shadow:#552586 2px 2px 5px;
 }
+
+.division p{
+  font-size:x-large;
+}
+
+.division label{
+  font-size:large;
+}
+
+.division input{
+  transform:scale(1.25);
+}
+
+.form-check-input {
+  border:2px solid #552586;
+}
+
+hr {
+  width:100%;
+  border-width:10px;
+  border-color:#552586;
+}

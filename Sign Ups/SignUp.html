@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="SignUp.css">
     <link rel="stylesheet" href="Header.css">
     <link rel="icon" href="https://media1.tenor.com/m/kqZLFsisY24AAAAd/did-unc-snap-unc.gif">
+    <script src="SignUp.js"></script>
     <script>   
           function FormSubmit() {
             alert("Sign up request submitted! Thank you for joining us :)")
@@ -20,7 +21,7 @@
 
 
 </head>
-<body>
+<body></body>
     <header>
         <nav class="navbar">
             <img src="../Media/hawk tuah.png" height="90" class="Logo">
@@ -121,10 +122,80 @@
                 </td>
             </tr>
         </table>
+        <br/><br/><br/>
+        <hr>
+
+        <div class="division">
+            <p>What division would you like to join</p>
+            <input type="checkbox" id="fgc" name="fgc" class="form-check-input" onclick="checkwhatsticked()">
+            <label for="fgc">Fighting Games (FGC)</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     
+            <input type="checkbox" id="fps" name="fps" class="form-check-input" onclick="checkwhatsticked()">
+            <label for="fgc">First-Person Shooter (FPS)</label>
+            <br/><br/>
+            <p>Have you played any of these games before?</p>
+            <input type="radio" id="yes" name="bg" value="yes" class="form-check-input" onclick="checkwhatsticked()">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="bg" value="no" class="form-check-input" onclick="checkwhatsticked()">
+            <label for="no">No</label>
+            <br/><br/>
+
+            <div class="fgc-bg" id="fgc-bg" style="display:none;">
+                <p>Fighting Games (Select those that you have played)</p>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="SF6" name="SF6" class="form-check-input">
+                            <label for="fgc">SF6</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="GGST" name="GGST" class="form-check-input">
+                            <label for="fgc">GGST</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="UNI2" name="UNI2"class="form-check-input">
+                            <label for="fgc">UNI2</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="Others fgc" name="Others fgc"class="form-check-input">
+                            <label for="fgc">Others</label>
+                        </td>
+                    </tr>
+                </table>
+                <br/>
+
+            </div>
+            <div class="fps-bg" id="fps-bg" style="display:none;">
+                <p>FPS games (Select those that you have played)</p>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="VAL" name="VAL" class="form-check-input">
+                            <label for="fps">Valorant</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="CS2" name="CS2" class="form-check-input">
+                            <label for="fps">CS2</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="R6" name="R6" class="form-check-input">
+                            <label for="fps">R6</label>
+
+                        </td>
+                        <td>
+                            <input type="checkbox" id="Others fgc" name="Others fgc"class="form-check-input">
+                            <label for="fgc">Others</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
 
 
         <br/>
-        <button type="button" id="submit" class="btn btn-success btn-lg"onclick="FormSubmit()" >Submit Form</button>
+        <button type="button" id="submit" class="btn btn-success btn-lg" onclick="FormSubmit()">Submit Form</button>
         
     </form>
  
