@@ -119,9 +119,7 @@ body{
 
 
 
-.valcaption{
-  font-size: 15px;
-}
+
 .introduction{
     font-family: UNIfont;
     font-size: 25px;
@@ -137,12 +135,24 @@ body{
   float:none;
 }
 
-.valgif{
+.doomcaption{
+  font-size: 15px;
+}
+
+.doomgif{
   width:550px;
   height:300px;
   
 }
 
+.valcaption{
+  font-size: 15px;
+}
+
+.valgif{
+  width:550px;
+  height:300px;
+}
 .FGselector{
   text-decoration: none;
   color: white;
@@ -317,4 +327,10 @@ body{
   font-weight:bold;
   font-size:40px;
 
+}
+
+.bold{
+  font-weight:bolder;
+  color:lightblue;
+  font-size:40px;
 }
