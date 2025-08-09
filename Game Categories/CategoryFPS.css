@@ -2,10 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .title{
-  background-color:purple;
+  background-color:black;
 }
 
   
@@ -62,7 +63,12 @@ body{
 }
 .title{
   padding-top: 100px;
+  color:white;
+  font-family: GENfont;
+  font-weight: lighter;
 }
+
+
 
 .tabbar button {
   width:33%;
@@ -146,10 +152,12 @@ body{
 .FGselector{
   text-decoration: none;
   color: white;
+  font-family: sexfont;
 }
 .FPSselector{
   text-decoration: none;
   color: white;
+  font-family: sexfont;
 }
 
 
@@ -289,7 +297,7 @@ body{
 }
 
 .selectorbg{
-  background-color:purple;
+  background-color:black;
   
 }
 

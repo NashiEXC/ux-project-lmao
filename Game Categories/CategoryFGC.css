@@ -6,7 +6,7 @@
 }
 
 .title{
-  background-color:purple;
+  background-color: black;
 }
 
   
@@ -119,6 +119,7 @@ body{
    border-top-left-radius: 50px;
    border-top-right-radius: 50px;
    background-color:grey;
+   font-family: sexfont;
 }
 .SFAlpha{
   font-size: 15px;
@@ -224,6 +225,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: sexfont;
+
+    
 }
 
 .fgachievements img{
@@ -263,7 +266,7 @@ body{
 }
 
 .selectorbg{
-  background-color:purple;
+  background-color:black;
   
 }
 
@@ -306,17 +309,21 @@ body{
 .first{
   color:    #d5b011;
   font-weight:bold;
-
+  font-size: 40px;
 }
 
 .second{
   color:#b7c0bf;
   font-weight:bold;
-
+  font-size: 40px;
 }
 
 .third{
   color:    #7e5920;
   font-weight:bold;
+  font-size: 40px;
+}
 
+.tournamentid{
+  font-size:20px;
 }
