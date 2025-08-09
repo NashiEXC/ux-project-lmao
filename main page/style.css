@@ -105,6 +105,22 @@ body{
     font-size: 20px;
   }
 
+  .break2head{
+    font-size: 30px;
+    text-wrap: nowrap;
+  }
+
+  .break2headpara{
+    font-size: 20px;
+  }
+
+  @media(max-width:500px){
+    .break2headpara{
+    font-size: 10px;
+  }
+  }
+
+
   .parallax2{
     background-image: url(../Media/LGD_Gaming_at_the_2015_LPL_Summer_Finals.png);
       /* Set a specific height */
@@ -121,6 +137,16 @@ body{
     background-image: linear-gradient(to right, #B589D6 , #552586);
     text-align: center;
     min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sexfont,'Consolas','Courier New', Courier, monospace;
+  }
+
+      .break3{
+    background-image: linear-gradient(to right, #B589D6 , #552586);
+    text-align: center;
+    min-height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,6 +340,15 @@ place-items: center;
   width: 600px;
   height: 400px;
   
+}
+
+@media(max-width:500px){
+  .carousel {
+  width: 400px;
+  height: 400px;
+  
+}
+
 }
 
 .carousel-caption {
