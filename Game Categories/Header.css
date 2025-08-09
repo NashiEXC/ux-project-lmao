@@ -5,7 +5,7 @@
 
 }
 
-header{
+.navheader{
     background-color: #0F172A;
     font-size: 25px;
     font-family: 'Consolas', Courier, monospace;
@@ -15,10 +15,7 @@ li{
     list-style: none;
 }
 
-a{
-    color:white;
-    text-decoration: none;
-}
+
 
 .navbar{
       min-height: 70px;
@@ -43,6 +40,8 @@ a{
 
 .navLink{
     transition: 0.5s ease-in-out;
+    color:white;
+    text-decoration: none;
 }
 
 .navLink:hover{

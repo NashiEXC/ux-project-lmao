@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Category.css">
+    <link rel="stylesheet" href="Header.css">
+    <script src="Category.js"></script>
+</head>
+<body>
+    <header class="navheader">
+        <nav class="navbar">
+            <img src="../Media/hawk tuah.png" height="90" class="Logo">
+
+            <ul class="NavMenu">
+                <li class="navItem">
+                    <a href="../main page/Landing.html" class="navLink">Home</a>
+                </li>
+                <li class="navItem">
+                    <a href="../Game Categories/Category.html" class="navLink">Games</a>
+                </li>
+                <li class="navItem">
+                    <a href="../Sign Ups/SignUp.html" class="navLink">Sign Up</a>
+                </li>
+                <li class="navItem">
+                    <a href="../About/Contact Us/About.html" class="navLink">About/Contact</a>
+                </li>
+            </ul>
+            <div class="NavSideBar">
+                <span class="Bar"></span>
+                <span class="Bar"></span>
+                <span class="Bar"></span>
+            </div>
+            
+        </nav>
+    </header>
+    <script src="Header.js"></script>
+    <h1 class="title">-DIVISIONS-</h1>
+
+
+    <table class="selector">
+        <tr>
+            <td><a href="CategoryFGC.html" class="FGselector"><h1>FGC</h1></a></td>
+            <td><a href="CategoryFPS.html" class="FPSselector"><h1>FPS</h1></a></td>
+        </tr>
+    </table>
+
+    <header class="Textheader"><h1>FGC DIVISION</h1></header>
+    </br>
+    <h2 style="font-size:40px;"> Division head: Gabe Ting</h2>
+    </br>   
+    <div class="introduction">
+        <h1>What are fighting games?</h1>
+         </br>   
+        <figure class="sfagif">
+            <img src="../Media/street-fighter-alpha-ryu.gif" alt="sfa gif" class="sfa">
+            <figcaption>A round of street fighter alpha</figcaption>
+
+        </figure>
+       <p>The fighting game genre involves combat between characters, often one-on-one battles. 
+        The mechanics of combat often features blocking, grappling, counter-attacking, and the ability to chain attacks together into "combos".
+          Battles are usually set in a fixed-size arena along a two-dimensional plane,
+           where characters navigate horizontally by walking or dashing, and vertically by jumping. 
+        -Adapted from Wikipedia
+        </p><br/>
+        <h1>FGC in esports</h1>
+        <p>Most view fighting games as one of the most prestigious genres offered in esports. Usually due to individual nature of competition and
+            the symetrical design of most fighting games, it is seen as the purest form of skill versus skill in esports
+            
+        </p>
+    </div>
+
+    <header class="Textheader"><h1>GAMES THAT WE PLAY</h1></header>
+    <div class="games">
+        <div class = "tabbar">
+        <button class="tabbutton" id="SFbutton" onclick="openCategory(event,'SF6')">STREET FIGHTER 6</button>
+        <button class="tabbutton" id="GGbutton" onclick="openCategory(event,'GGST')">GUILTY GEAR -STRIVE-</button>
+        <button class="tabbutton" id="UNIbutton" onclick="openCategory(event,'UNI2')">Under Night In-birth II</button>
+        </div>
+    
+    <div id="SF6" class="tabbarcontent">
+        <h1 class="fighter">Street Fighter 6</h1>
+        <p>Im fighting my street right now man i got 6 on my street im strokin</p>
+    </div>
+
+    <div id="GGST" class="tabbarcontent">
+        <h1 class="strive">GUILTY GEAR -STRIVE- </h1>
+        <p>Im guiltying my gear right now man i got strive on my gear im strokin</p>
+    </div>
+
+    <div id="UNI2" class="tabbarcontent">
+        <h1 class="night">Under Night In-birth II</h1>
+        <p>Im in-birthing my night right now man i got strive on my gear im strokin</p>
+    </div>
+    </div>
+
+    <header class="Textheader"><h1>OUR ACHIEVEMENTS</h1></header>
+    <div class="fgachievements">
+        <table>
+            <tr>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmE3EI8K2tbsvuE1G_fa9AABfAg_yx_0j4qg&s"></td>
+                <td><img src="../Media/EVO_Japan_2025_lightmode.png"></td>
+                <td><img src="../Media/Capcom_Cup_12_allmode.png"></td>
+                <td><img src="../Media/ARC_World_Tour_2024_allmode.png"></td>
+            </tr>
+            <tr>
+                <td>Campus Legends 2025<br/>SF6</br>1st Place</td>
+                <td>EVO Japan 2025 </br>SF6 ,GGST ,UNI2</br>1st Place</td>
+                <td>Cacpcom cup 12 </br>SF6</br>3rd place</td>
+                <td>arc world tour 2024<br>GGST ,UNI2</br>1st place</td>
+            </tr>
+
+        
+    </div>
+    <script>
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("SFbutton").click();
+    </script>
+    
+</body>
+</html>

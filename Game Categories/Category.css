@@ -1,12 +1,63 @@
-body{
-    background-color:antiquewhite;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+.title{
+  background-color:purple;
+}
+
+  
+body{
+    text-align: center;
+    background-color:rgb(169, 40, 40);
+}
+
+@font-face {
+  font-family: SFfont;
+  src: url(../Fonts/CityBrawlersBoldCaps.otf);
+}
+
+@font-face {
+  font-family: UNIfont;
+  src: url(../Fonts/FOT-NewCezanne\ Pro\ B.otf);
+}
+
+@font-face {
+  font-family: sexfont;
+  src: url(../Fonts/IBM_Plex_Sans_Condensed/IBMPlexSansCondensed-Medium.ttf);
+}
+
+@font-face {
+  font-family: GGfont;
+  src: url(../Fonts/Impact\ -\ Strive.otf);
+}
+@font-face {
+  font-family: CSfont;
+  src: url(../Fonts/High\ Speed.otf);
+}
+@font-face {
+  font-family: VALfont;
+  src: url(../Fonts/Valorant\ Font.ttf);
+}
+@font-face {
+  font-family: R6font;
+  src: url(../Fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: GENfont;
+  src: url(../Fonts/Angels.ttf);
+}
+
 
 .tabbar{
     overflow: hidden;
     border:1px solid rgba(50, 50, 50, 0.3);
     background-color: #f1f1f1;
-    padding-top: 90px;
+
+    
     
 }
 .title{
@@ -14,6 +65,7 @@ body{
 }
 
 .tabbar button {
+  width:33%;
   background-color: inherit;
   
   border: none;
@@ -22,6 +74,10 @@ body{
   padding: 14px 16px;
   transition: 0.3s;
   transition: 0.3s ease-in-out;
+  font-family: R6font;
+  font-size: 20px;
+  -webkit-text-stroke: 0.1px white;
+  font-weight: normal;
 }
 
 .tabbar button:hover {
@@ -37,12 +93,10 @@ body{
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  width: 100%;
 }
 
 
-#moba{
-  background-color:cyan;
-}
 
 .tabbarcontent {
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
@@ -52,4 +106,80 @@ body{
 @keyframes fadeEffect {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+
+.selector{
+   border:10px solid rgba(50, 50, 50, 0.3);
+   margin: 0;
+   width: 100%;
+}
+
+.introduction{
+    font-family: UNIfont;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;;
+}
+
+.introduction figure{
+  float:none;
+}
+
+.sfa{
+  width:550px;
+  height:300px;
+
+}
+
+.strive{
+  background-image: url(https://media1.tenor.com/m/bZKe53JSg0IAAAAd/sol-badguy-sol.gif);
+  background-position: center;
+  background-size: 100%;
+  padding: 50px;
+  -webkit-text-stroke:0.05rem black;
+  color: white;
+  font-family: GGfont;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.fgachievements{
+  padding-top:90px;
+  padding-bottom:90px;
+  background-image: url(../Media/25-06-2023-Student-Champ-Finals-British-Esports-HIGH-351-2-767x710.png);
+    
+    
+      /* Set a specific height */
+
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fgachievements img{
+  height:300px;
+  width:300px;
+  padding:5px;
+}
+
+
+.fgachievements table{
+  font-size:50px;
+  color:white;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
+}
+
+.Textheader{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-size:50px;
 }

@@ -19,7 +19,3 @@ function openCategory(evt, category) {
 
 
 
-
-
-
-
