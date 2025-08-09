@@ -69,6 +69,10 @@ li{
     margin-right: auto;
 }
 
+.navItem{
+    font-weight: bold;
+}
+
 @media(max-width:1000px){
 
 .NavSideBar{
