@@ -198,7 +198,7 @@ body{
 }
 
 .night{
-  background-image: url(https://media1.tenor.com/m/5Ez4dP3hRRkAAAAC/under-night-in-birth-under-night-in-birth-ii-sys-celes.gif);
+  background-image: url(../Media/uni2gif.gif);
   background-position: center;
   background-size: cover;
   padding: 50px;
@@ -223,6 +223,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: sexfont;
 }
 
 .fgachievements img{
@@ -300,4 +301,22 @@ body{
   font-weight: normal;
   color: white;
   -webkit-text-stroke: 1px black;
+}
+
+.first{
+  color:    #d5b011;
+  font-weight:bold;
+
+}
+
+.second{
+  color:#b7c0bf;
+  font-weight:bold;
+
+}
+
+.third{
+  color:    #7e5920;
+  font-weight:bold;
+
 }
