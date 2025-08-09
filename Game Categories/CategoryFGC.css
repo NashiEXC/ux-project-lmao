@@ -175,6 +175,7 @@ body{
 }
 
 .strive{
+  border:5px red solid;
   background-image: url(https://media1.tenor.com/m/bZKe53JSg0IAAAAd/sol-badguy-sol.gif);
   background-position: center;
   background-size: cover;
@@ -187,6 +188,7 @@ body{
 }
 
 .fighter{
+  border:5px blue solid;
   background-image: url(https://media1.tenor.com/m/Wtp9D4LIZp4AAAAd/ryu-street-fighter.gif);
   background-position: center;
   background-size: cover;
@@ -199,6 +201,7 @@ body{
 }
 
 .night{
+  border:5px blueviolet solid;
   background-image: url(../Media/uni2gif.gif);
   background-position: center;
   background-size: cover;
