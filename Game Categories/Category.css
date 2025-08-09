@@ -109,9 +109,11 @@ body{
 }
 
 .selector{
-   border:10px solid rgba(50, 50, 50, 0.3);
+   border:10px solid rgba(0, 0, 0, 1);
    margin: 0;
    width: 100%;
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;
 }
 .SFAlpha{
   font-size: 15px;
@@ -134,7 +136,36 @@ body{
 .sfa{
   width:550px;
   height:300px;
+  
+}
 
+.FGselector{
+  text-decoration: none;
+  color: white;
+}
+.FPSselector{
+  text-decoration: none;
+  color: white;
+}
+
+
+.FGtd:hover{
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+  border-top-left-radius: 50px;
+  
+}
+
+.FPStd:hover{
+  background-color:  	rgba(134,206,203);
+  transition: all 0.3s ease-in-out;
+   border-top-right-radius: 50px;
+   
+}
+
+.selector td {
+    width: 50%;
+    text-align: center;
 }
 
 .strive{
