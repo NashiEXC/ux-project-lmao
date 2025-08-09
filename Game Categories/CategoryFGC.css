@@ -275,7 +275,25 @@ body{
     background-size: cover;
 }
 
-.striveblurb{
+#SF6{
+  background-image: url(../Media/Street-Fighter-6_png.png);
+  background-size: cover;
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#UNI2{
+  background-image: url(../Media/uni2.png);
+  background-size: cover;
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blurb{
   font-size: 30px;
   padding: 100px;
   font-family: R6font;
