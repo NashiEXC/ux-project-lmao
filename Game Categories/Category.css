@@ -109,7 +109,7 @@ body{
 }
 
 .selector{
-   border:10px solid rgba(0, 0, 0, 1);
+   border:10px solid rgba(0, 0, 0, 2);
    margin: 0;
    width: 100%;
    border-top-left-radius: 50px;
