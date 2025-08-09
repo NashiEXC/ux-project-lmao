@@ -114,7 +114,13 @@ body{
    width: 100%;
    border-top-left-radius: 50px;
    border-top-right-radius: 50px;
+   background-color:grey;
 }
+
+
+
+
+
 .SFAlpha{
   font-size: 15px;
 }
@@ -230,4 +236,9 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.selectorbg{
+  background-color:purple;
+  
 }
