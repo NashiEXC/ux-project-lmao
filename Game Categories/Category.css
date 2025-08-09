@@ -116,11 +116,6 @@ body{
    border-top-right-radius: 50px;
    background-color:grey;
 }
-
-
-
-
-
 .SFAlpha{
   font-size: 15px;
 }
@@ -156,7 +151,7 @@ body{
 
 
 .FGtd:hover{
-  background-color: black;
+  background-color: rgb(169, 40, 40);
   transition: all 0.3s ease-in-out;
   border-top-left-radius: 50px;
   
@@ -177,11 +172,35 @@ body{
 .strive{
   background-image: url(https://media1.tenor.com/m/bZKe53JSg0IAAAAd/sol-badguy-sol.gif);
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   padding: 50px;
   -webkit-text-stroke:0.05rem black;
   color: white;
   font-family: GGfont;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.fighter{
+  background-image: url(https://media1.tenor.com/m/Wtp9D4LIZp4AAAAd/ryu-street-fighter.gif);
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+  -webkit-text-stroke:0.05rem black;
+  color: white;
+  font-family: SFfont;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.night{
+  background-image: url(https://media1.tenor.com/m/5Ez4dP3hRRkAAAAC/under-night-in-birth-under-night-in-birth-ii-sys-celes.gif);
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+  -webkit-text-stroke:0.05rem black;
+  color: white;
+  font-family: UNIfont;
   font-size: 50px;
   font-weight: normal;
 }
@@ -236,9 +255,4 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.selectorbg{
-  background-color:purple;
-  
 }
