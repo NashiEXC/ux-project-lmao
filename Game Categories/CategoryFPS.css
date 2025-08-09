@@ -156,7 +156,7 @@ body{
 
 
 .FGtd:hover{
-  background-color: black;
+  background-color: rgb(169, 40, 40);
   transition: all 0.3s ease-in-out;
   border-top-left-radius: 50px;
   
