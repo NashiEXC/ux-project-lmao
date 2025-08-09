@@ -95,11 +95,10 @@ body{
 }
 
 .tabbarcontent {
+  width:100%;
   position: relative;
   display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
+  border: none;
   width: 100%;
 }
 
@@ -125,9 +124,7 @@ body{
 
 
 
-.valcaption{
-  font-size: 15px;
-}
+
 .introduction{
     font-family: UNIfont;
     font-size: 25px;
@@ -143,12 +140,24 @@ body{
   float:none;
 }
 
-.valgif{
+.doomcaption{
+  font-size: 15px;
+}
+
+.doomgif{
   width:550px;
   height:300px;
   
 }
 
+.valcaption{
+  font-size: 15px;
+}
+
+.valgif{
+  width:550px;
+  height:300px;
+}
 .FGselector{
   text-decoration: none;
   color: white;
@@ -183,6 +192,7 @@ body{
 
 
 .valorantbanner{
+  border:#ff4654 5px solid;
   color:#ff4654;
   background-image:url(../Media/VALORANTH1BANNER.gif);
   background-repeat:no-repeat;
@@ -195,6 +205,8 @@ body{
 }
 
 .valorantp{
+  width:100%;
+  padding:100px;
   font-size:xx-large;
   position:relative;
   color:#ba3a46;
@@ -204,6 +216,7 @@ body{
 }
 
 .cs2{
+  border:5px white solid;
   background-image: url(https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/capsule_616x353.jpg?t=1749053861);
   background-position:center;
   background-size:cover;
@@ -216,6 +229,7 @@ body{
 }
 
 .cs2p{
+  padding:100px;
   font-size:xx-large;
   background-color:#E48716;
   color:#1F1F2E;
@@ -223,6 +237,7 @@ body{
 }
 
 .rainbow{
+  border:5px #FE3D2C solid;
   background-image: url(../Media/coolvigilBANNER.gif);
   background-position:center;
   background-size:cover;
@@ -235,7 +250,11 @@ body{
   -webkit-text-stroke: 1px black;
 }
 
+.X{
+  color:#FE3D2C;
+}
 .rainbowp{
+  padding:100px;
   font-size:xx-large;
   background-color:#00000B;
   color:#FFFFFF;
@@ -307,6 +326,7 @@ body{
 }
 
 .first{
+  font-family:sexfont;
   color:	#d5b011;
   font-weight:bold;
   font-size:40px;
@@ -314,6 +334,7 @@ body{
 }
 
 .second{
+  font-family:sexfont;
   color:#b7c0bf;
   font-weight:bold;
   font-size:40px;
@@ -321,8 +342,15 @@ body{
 }
 
 .third{
+  font-family:sexfont;
   color:	#7e5920;
   font-weight:bold;
   font-size:40px;
 
+}
+
+.bold{
+  font-weight:bolder;
+  color:lightblue;
+  font-size:40px;
 }
