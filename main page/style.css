@@ -175,7 +175,7 @@ place-items: center;
     padding: 10px;
     background-position: center;
     font-family: SFfont;
-    background-size: 100%;
+    background-size: cover;
    
   }
 
@@ -183,7 +183,7 @@ place-items: center;
     padding: 10px;
     background-position: center;
     font-family: CSfont;
-    background-size: 100%;
+    background-size: cover;
     font-size: 45px;
   } 
 
@@ -191,7 +191,7 @@ place-items: center;
     padding: 10px;
     background-position: center;
     font-family: GGfont;
-    background-size: 100%;
+    background-size: cover;
    
   }
 
@@ -199,14 +199,14 @@ place-items: center;
     padding: 10px;
     background-position: center;
     font-family: VALfont;
-    background-size: 100%;
+    background-size: cover;
   }
 
    .UNI{
     padding: 10px;
     background-position: center;
     font-family: UNIfont;
-    background-size: 100%;
+    background-size: cover;
     word-wrap: break-word;
   }
 
@@ -214,7 +214,7 @@ place-items: center;
     padding: 10px;
     background-position: center;
     font-family: R6font;
-    background-size: 100%;
+    background-size: cover;
   }
 
   @media(min-width:768px){

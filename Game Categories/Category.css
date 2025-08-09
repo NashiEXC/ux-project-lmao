@@ -113,15 +113,18 @@ body{
    margin: 0;
    width: 100%;
 }
-
+.SFAlpha{
+  font-size: 15px;
+}
 .introduction{
     font-family: UNIfont;
-    font-size: 20px;
-    color: black;
+    font-size: 25px;
+    color: white;
     padding: 10px;
     margin: 0 auto;
     width: 100%;
     background-color: white;;
+    -webkit-text-stroke: 0.5px black;
 }
 
 .introduction figure{
@@ -182,4 +185,18 @@ body{
   padding-top:50px;
   padding-bottom:50px;
   font-size:50px;
+  font-weight: lighter;
+  -webkit-text-stroke: 0.1rem white;
+  font-family: SFfont;
+  font-size: 100px;
+  
+}
+
+.introduction{
+  background-image: url(../Media/4350537-best-fighting-games-header.png);
+  background-size: cover;
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
