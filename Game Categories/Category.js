@@ -17,6 +17,9 @@ function openCategory(evt, category) {
 
 }
 
-function gurt (){
-    alert("Hello, Gurt!");
-}
+
+
+
+
+
+
