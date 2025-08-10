@@ -27,7 +27,7 @@ body{
 }
 
 @font-face {
-  font-family: sexfont;
+  font-family: genericfont;
   src: url(../Fonts/IBM_Plex_Sans_Condensed/IBMPlexSansCondensed-Medium.ttf);
 }
 
@@ -186,13 +186,13 @@ body{
 .FGselector{
   text-decoration: none;
   color: white;
-  font-family: sexfont;
+  font-family: genericfont;
 }
 .FPSselector{
   background-color:rgba(134,206,203);
   text-decoration: none;
   color: white;
-  font-family: sexfont;
+  font-family: genericfont;
 }
 
 .FPStd{
@@ -359,11 +359,11 @@ body{
 
 .tournamentid{
   font-size:20px;
-  font-family:sexfont;
+  font-family:genericfont;
 }
 
 .first{
-  font-family:sexfont;
+  font-family:genericfont;
   color:	#d5b011;
   font-weight:bold;
   font-size:40px;
@@ -371,7 +371,7 @@ body{
 }
 
 .second{
-  font-family:sexfont;
+  font-family:genericfont;
   color:#b7c0bf;
   font-weight:bold;
   font-size:40px;
@@ -379,7 +379,7 @@ body{
 }
 
 .third{
-  font-family:sexfont;
+  font-family:genericfont;
   color:	#7e5920;
   font-weight:bold;
   font-size:40px;

@@ -27,7 +27,7 @@ body{
 }
 
 @font-face {
-  font-family: sexfont;
+  font-family: genericfont;
   src: url(../Fonts/IBM_Plex_Sans_Condensed/IBMPlexSansCondensed-Medium.ttf);
 }
 
@@ -120,7 +120,7 @@ body{
    border-top-left-radius: 50px;
    border-top-right-radius: 50px;
    background-color:grey;
-   font-family: sexfont;
+   font-family: genericfont;
 }
 .SFAlpha{
   font-size: 15px;
@@ -229,7 +229,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: sexfont;
+    font-family: genericfont;
 
     
 }

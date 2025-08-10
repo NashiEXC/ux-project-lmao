@@ -22,7 +22,7 @@ body{
 }
 
 @font-face {
-  font-family: sexfont;
+  font-family: genericfont;
   src: url(../Fonts/IBM_Plex_Sans_Condensed/IBMPlexSansCondensed-Medium.ttf);
 }
 
@@ -89,7 +89,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: sexfont,'Consolas','Courier New', Courier, monospace;
+    font-family: genericfont,'Consolas','Courier New', Courier, monospace;
   }
 
   .break1head{
@@ -156,7 +156,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: sexfont,'Consolas','Courier New', Courier, monospace;
+    font-family: genericfont,'Consolas','Courier New', Courier, monospace;
   }
 
       .break3{
@@ -166,7 +166,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: sexfont,'Consolas','Courier New', Courier, monospace;
+    font-family: genericfont,'Consolas','Courier New', Courier, monospace;
   }
 
    .parallax3{
