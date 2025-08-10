@@ -126,7 +126,9 @@ body{
 
 
 .introduction{
-    height:1000px;
+    display:block;
+    overflow-y:auto;
+    height:1100px;
     text-align:left;
     font-family: UNIfont;
     font-size: 25px;
@@ -139,13 +141,18 @@ body{
 }
 
 .introduction figure{
-  display:flex;
+  display:block;
+}
+
+.introduction p{
+  padding:5px;
+  position:relative;
 }
 
 
 
 .doomcaption{
-  text-align:right;
+  text-align: center;
   padding:5px;
   font-size: 15px;
 }
@@ -161,7 +168,7 @@ body{
 }
 
 .valcaption{
-  text-align: right;
+  text-align: center;
   padding:5px;
   font-size: 15px;
 }
