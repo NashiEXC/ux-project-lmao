@@ -88,11 +88,11 @@ body{
 }
 
 .tabbar button:hover {
-  background-color: #71b1af;
+  background-color: #71b1af93;
 }
 
 .tabbar button.active {
-  background-color: #5b8d8b;
+  background-color: #71b1af;
 }
 
 .tabbarcontent {

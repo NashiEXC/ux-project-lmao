@@ -86,11 +86,11 @@ body{
 }
 
 .tabbar button:hover {
-  background-color: #ddd;
+  background-color: rgb(156, 36, 36,0.5);
 }
 
 .tabbar button.active {
-  background-color: #ccc;
+  background-color:rgb(156, 36, 36);
 }
 
 .tabbarcontent {
@@ -337,4 +337,9 @@ body{
 
 .tournamentid{
   font-size:20px;
+}
+
+
+.subheader{
+  color:rgb(219, 53, 53);
 }
