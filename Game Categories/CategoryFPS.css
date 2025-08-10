@@ -6,6 +6,7 @@
 }
 
 .title{
+  font-size:100px;
   background-color:black;
 }
 
@@ -54,9 +55,10 @@ body{
 
 
 .tabbar{
+    display:flex;
     overflow: hidden;
     border:1px solid rgba(50, 50, 50, 0.3);
-    background-color: #f1f1f1;
+    background-color: #dbdbdb;
 
     
     
@@ -71,27 +73,27 @@ body{
 
 
 .tabbar button {
-  width:33%;
+  width:100%;
   background-color: inherit;
   
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 14px 0;
   transition: 0.3s;
   transition: 0.3s ease-in-out;
-  font-family: R6font;
-  font-size: 20px;
-  -webkit-text-stroke: 0.1px white;
+  font-family: UNIfont;
+  font-size: 30px;
+  -webkit-text-stroke: 0.5px white;
   font-weight: normal;
 }
 
 .tabbar button:hover {
-  background-color: #ddd;
+  background-color: #71b1af;
 }
 
 .tabbar button.active {
-  background-color: #ccc;
+  background-color: #5b8d8b;
 }
 
 .tabbarcontent {
@@ -164,6 +166,7 @@ body{
   font-family: sexfont;
 }
 .FPSselector{
+  background-color:rgba(134,206,203);
   text-decoration: none;
   color: white;
   font-family: sexfont;
@@ -205,6 +208,7 @@ body{
 }
 
 .valorantp{
+  font-family: UNIfont;
   width:100%;
   padding:100px;
   font-size:xx-large;
@@ -229,6 +233,7 @@ body{
 }
 
 .cs2p{
+  font-family: UNIfont;
   padding:100px;
   font-size:xx-large;
   background-color:#E48716;
@@ -254,6 +259,7 @@ body{
   color:#FE3D2C;
 }
 .rainbowp{
+  font-family: UNIfont;
   padding:100px;
   font-size:xx-large;
   background-color:#00000B;
@@ -301,8 +307,8 @@ body{
   font-size:50px;
   font-weight: lighter;
   -webkit-text-stroke: 0.1rem white;
-  font-family: R6font;
-  font-size: 100px;
+  font-family: VAlfont;
+  font-size: 80px;
   
 }
 
