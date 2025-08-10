@@ -80,8 +80,8 @@ body{
   transition: 0.3s;
   transition: 0.3s ease-in-out;
   font-family: R6font;
-  font-size: 30px;
-  -webkit-text-stroke: 0.1px white;
+  font-size: 35px;
+  -webkit-text-stroke: 0.5px white;
   font-weight: normal;
 }
 

@@ -387,3 +387,24 @@ place-items: center;
 .linkemail{
   text-decoration: underline;
 }
+
+.fa{
+  font-size: 40px;
+  padding: 10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+
+
+/* Twitter */
+
+.socials{
+  text-align: center;
+}
