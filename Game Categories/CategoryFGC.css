@@ -90,7 +90,7 @@ body{
 }
 
 .tabbar button.active {
-  background-color:rgb(156, 36, 36);
+  background-color: rgb(156, 36, 36);
 }
 
 .tabbarcontent {
@@ -120,7 +120,7 @@ body{
    border-top-left-radius: 50px;
    border-top-right-radius: 50px;
    background-color:grey;
-   font-family: sexfont;  
+   font-family: sexfont;
 }
 .SFAlpha{
   font-size: 15px;
@@ -147,14 +147,8 @@ body{
 }
 
 .FGselector{
-  background-color: rgb(169, 40, 40);
   text-decoration: none;
   color: white;
-}
-
-.FGtd{
-  border-top-left-radius: 50px;
-  background-color: rgb(117, 28, 28);
 }
 .FPSselector{
   text-decoration: none;
@@ -261,9 +255,9 @@ body{
   padding-bottom:50px;
   font-size:50px;
   font-weight: lighter;
-  -webkit-text-stroke: 0.05rem white;
+  -webkit-text-stroke: 01px white;
   font-family: GGfont;
-  font-size: 70px;
+  font-size: 100px;
   
 }
 
@@ -337,9 +331,4 @@ body{
 
 .tournamentid{
   font-size:20px;
-}
-
-
-.subheader{
-  color:rgb(219, 53, 53);
 }
