@@ -17,7 +17,7 @@ body{
 }
 
 @font-face {
-  font-family: CSfont;
+  font-family: SFfont;
   src: url(../Fonts/CityBrawlersBoldCaps.otf);
 }
 
@@ -57,7 +57,6 @@ body{
 .tabbar{
     display:flex;
     overflow: hidden;
-    border:1px solid rgba(50, 50, 50, 0.3);
     background-color: #dbdbdb;
 
     
@@ -66,7 +65,7 @@ body{
 .title{
   padding-top: 100px;
   color:white;
-  font-family: GENfont;
+  font-family: sffont;
   font-weight: lighter;
 }
 
@@ -97,7 +96,6 @@ body{
 }
 
 .tabbarcontent {
-  width:100%;
   position: relative;
   display: none;
   border: none;
@@ -128,6 +126,8 @@ body{
 
 
 .introduction{
+    height:1000px;
+    text-align:left;
     font-family: UNIfont;
     font-size: 25px;
     color: white;
@@ -139,10 +139,14 @@ body{
 }
 
 .introduction figure{
-  float:none;
+  display:flex;
 }
 
+
+
 .doomcaption{
+  text-align:right;
+  padding:5px;
   font-size: 15px;
 }
 
@@ -152,14 +156,26 @@ body{
   
 }
 
+.doom{
+  float:right;
+}
+
 .valcaption{
+  text-align: right;
+  padding:5px;
   font-size: 15px;
 }
 
 .valgif{
+  float:right;
   width:550px;
   height:300px;
 }
+
+.val{
+  float:right;
+}
+
 .FGselector{
   text-decoration: none;
   color: white;
@@ -211,7 +227,7 @@ body{
   font-family: UNIfont;
   width:100%;
   padding:100px;
-  font-size:xx-large;
+  font-size:x-large;
   position:relative;
   color:#ba3a46;
   background-color:#111823;
@@ -233,11 +249,13 @@ body{
 }
 
 .cs2p{
+
   font-family: UNIfont;
   padding:100px;
-  font-size:xx-large;
+  font-weight:bolder;
+  font-size:x-large;
   background-color:#E48716;
-  color:#1F1F2E;
+  color:white;
 
 }
 
@@ -261,7 +279,7 @@ body{
 .rainbowp{
   font-family: UNIfont;
   padding:100px;
-  font-size:xx-large;
+  font-size:x-large;
   background-color:#00000B;
   color:#FFFFFF;
 }
@@ -308,7 +326,7 @@ body{
   font-weight: lighter;
   -webkit-text-stroke: 0.1rem white;
   font-family: VAlfont;
-  font-size: 80px;
+  font-size: 70px;
   
 }
 
@@ -359,5 +377,13 @@ body{
 .bold{
   font-weight:bolder;
   color:lightblue;
-  font-size:40px;
+}
+
+.link{
+  color:lightblue;
+  text-decoration-color:white;
+}
+
+.subheader{
+  color:lightblue;
 }

@@ -79,6 +79,7 @@ h1{
 
 
 .carousel-bg {
+    filter:brightness(50%);
     position: absolute;
     top: 0; 
     left: 0;
@@ -171,7 +172,8 @@ img{
 }
 
 hr {
+  color:black;
   width:100%;
   border-width:10px;
-  border-color:#552586;
+  border-color:black;
 }

@@ -57,7 +57,6 @@ body{
 .tabbar{
     display:flex;
     overflow: hidden;
-    border:1px solid rgba(50, 50, 50, 0.3);
     background-color: #f1f1f1;
 
     
@@ -66,7 +65,7 @@ body{
 .title{
   padding-top: 100px;
   color:white;
-  font-family: GENfont;
+  font-family: SFfont;
   font-weight: lighter;
 }
 
@@ -257,7 +256,7 @@ body{
   font-size:50px;
   font-weight: lighter;
   -webkit-text-stroke: 0.1rem white;
-  font-family: SFfont;
+  font-family: GGfont;
   font-size: 100px;
   
 }

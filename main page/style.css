@@ -383,3 +383,7 @@ place-items: center;
   width: 600px;
   height: 400px;
 }
+
+.linkemail{
+  text-decoration: underline;
+}
