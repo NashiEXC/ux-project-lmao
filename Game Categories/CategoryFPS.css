@@ -188,6 +188,11 @@ body{
   font-family: sexfont;
 }
 
+.FPStd{
+  background-color:rgb(117, 180, 176);
+  border-top-right-radius: 50px;
+}
+
 
 .FGtd:hover{
   background-color: rgb(169, 40, 40);
