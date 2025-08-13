@@ -149,10 +149,16 @@ body{
 .FGselector{
   text-decoration: none;
   color: white;
+  background-color: rgb(192, 116, 116);
 }
 .FPSselector{
   text-decoration: none;
   color: white;
+}
+
+.FGtd{
+  background-color:rgb(176, 67, 67);
+  border-top-left-radius: 50px;
 }
 
 
