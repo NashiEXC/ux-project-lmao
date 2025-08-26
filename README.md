@@ -4,7 +4,7 @@ group project done for year 1 semester 1 ux assignment
 
 crunched out in 3 days because i have bad time management
 
-~250mb in size
+~215mb in size
 
 
 
