@@ -1,6 +1,6 @@
 start from the html file in the folder labelled main page 
 
-project done for 1st year ux assignment
+group project done for year 1 semester 1 ux assignment
 
 crunched out in 3 days because i have bad time management
 
